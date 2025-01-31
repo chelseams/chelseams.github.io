@@ -629,20 +629,22 @@ section {
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
-  margin: 0 0 6px 0;
+  font-size: medium;
+  float: center;
   text-transform: uppercase;
   display: block;
-  font-weight: 600;
+  font-weight: 700;
   font-family: "Poppins", sans-serif;
   color: #222222;
 }
 
 .skills .progress .skill .val {
   float: right;
+  padding-left: 15px;
   font-style: normal;
+  color: #209385;
 }
-
+/* 
 .skills .progress-bar-wrap {
   background: #f3f3f3;
 }
@@ -652,7 +654,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #34b7a7;
-}
+} */
 
 /*--------------------------------------------------------------
 # Facts
